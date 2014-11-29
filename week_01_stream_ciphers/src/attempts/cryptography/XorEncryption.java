@@ -1,4 +1,4 @@
-package com.cryptography;
+package attempts.cryptography;
 
 import java.io.UnsupportedEncodingException;
 

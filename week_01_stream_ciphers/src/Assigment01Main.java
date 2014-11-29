@@ -1,5 +1,3 @@
-package com.assigment01;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
