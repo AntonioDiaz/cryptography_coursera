@@ -1,5 +1,3 @@
-package com;
-
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -24,7 +22,7 @@ import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
 public class ProgrammingAssignment {
 
-	public static final String PATH_FILE = "/Users/toni/git/cryptography_coursera/week_02_block_cipher/src/input.txt";
+	public static final String PATH_FILE = "C:/Users/toni/git/cryptography_coursera/week_02_block_cipher/src/input.txt";
 	
 	public static void main(String[] args) throws NoSuchAlgorithmException, NoSuchPaddingException, InvalidKeyException, InvalidAlgorithmParameterException, IOException {
 		Security.addProvider(new BouncyCastleProvider());

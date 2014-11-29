@@ -1,4 +1,4 @@
-package com;
+package attemps;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
