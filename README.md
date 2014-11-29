@@ -1,4 +1,4 @@
-Practices of https://class.coursera.org/crypto-009 <br>
+Practices of https://class.coursera.org/crypto-012 <br>
 Week 01: Stream Ciphers <br>
 Week 02: Block Ciphers <br>
 Week 03: Message Integrity <br>
