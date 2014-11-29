@@ -9,7 +9,8 @@ import java.util.Scanner;
 
 public class Assigment01Main {
 
-	private static final String MY_PATH = "/home/toni/workspace_kripto/01_week_many_time_pad/messages/";
+	private static final String MY_PATH = "C:/Users/toni/git/cryptography_coursera/week_01_stream_ciphers/messages/";
+	//private static final String MY_PATH = "/home/toni/workspace_kripto/01_week_many_time_pad/messages/";
 	private static final String MY_FILE_NAME = "_ciphertext.txt";
 	private static final int NUM_TEXT = 11;
 
@@ -19,6 +20,7 @@ public class Assigment01Main {
 		int maxSize = 0;
 		for (int i = 0; i < NUM_TEXT; i++) {
 			String name = String.format("%1$02d", i) + MY_FILE_NAME;
+			@SuppressWarnings("resource")
 			String myText = new Scanner(new File(MY_PATH + name)).useDelimiter("\\A").next();;
 			messages[i] = new MessageEncrypted(myText);
 			if (maxSize < myText.length()) {
